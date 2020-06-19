@@ -39,8 +39,8 @@ RUN npm run lint
 #Running vulnerability check for dependencies
 RUN npm audit --production
 #Running Snyk
-ARG SNYK_TOKEN
-RUN npm run snyk
+# ARG SNYK_TOKEN
+# RUN npm run snyk
 
 #
 # Release image
